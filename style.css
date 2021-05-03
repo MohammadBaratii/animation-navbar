@@ -1,0 +1,58 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #202124;
+  height: 100vh;
+  transition: 0.3s;
+}
+#theme {
+  position: fixed;
+  margin: 1.2rem;
+  color: white;
+  background-color: #cfcfcf;
+  color: #202124;
+  padding: 1.2rem 1.5rem;
+  border-radius: 100px;
+}
+#darkTheme {
+  cursor: pointer;
+  border-bottom: 2px #202124 solid;
+}
+#lightTheme {
+  cursor: pointer;
+}
+nav {
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background-color: #3b4044;
+  width: 45%;
+  height: 4rem;
+  border-radius: 10px;
+}
+nav a {
+  text-align: center;
+  width: 20%;
+  padding: 19px 0;
+  color: #fff;
+  text-decoration: none;
+  z-index: 1;
+}
+nav #animationBox {
+  position: absolute;
+  z-index: 0;
+  border-radius: 10px;
+  width: 20%;
+  height: 100%;
+  background-color: #f58a42;
+  margin-left: 0%;
+  transition: margin 0.5s;
+}
